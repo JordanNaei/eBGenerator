@@ -3,7 +3,7 @@ import axios from "axios";
 export default {
 
   getArticles: function (s) {
-    return axios.get("https://newsapi.org/v2/everything?q=" + s + "&sortBy=publishedAt&apiKey=b21576c70cd24ab8a978d4b96c008837");
+    return axios.get("http://newsapi.org/v2/everything?q=" + s + "&sortBy=publishedAt&apiKey=b21576c70cd24ab8a978d4b96c008837/");
   },
 
   saveArticle: function (postData) {
