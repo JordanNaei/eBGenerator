@@ -1,0 +1,77 @@
+.arttab {
+  color: white !important;
+  width: 600px !important;
+  height: 400px !important;
+  overflow-y: auto !important;
+  display: block !important;
+}
+
+.img {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.theader {
+  color: #9b1c2c !important;
+}
+
+.viewF {
+  background-color: #9b1c2c !important;
+  color: white !important;
+  padding: 10px !important;
+  border-radius: 10px;
+  cursor: grab !important;
+  overflow: auto !important
+}
+
+.sumP {
+  cursor: pointer;
+}
+
+/*This will work on every browser but Chrome Browser*/
+
+/* .table-fixed thead th {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  color: #9b1c2c;
+  border: solid white sticky !important;
+} */
+
+.ta{
+  background-color: #9b1c2c !important;
+  padding: 5px !important;
+  border-radius: 10px;
+  color: white !important;
+  margin: 50% !important;
+  margin-top: 100px !important;
+
+}
+
+.hi {
+  color: white !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.tager {
+  background-color: #9b1c2c !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+/* .ta {
+  align-content: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  border-radius: 30px;
+  background-color: #9b1c2c;
+  color: white !important;
+  padding: 40px !important;
+} */
+

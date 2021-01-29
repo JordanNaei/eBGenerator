@@ -1,0 +1,92 @@
+body {
+  background-color:#041E42 !important;
+  color: white !important;
+}
+
+.titl {
+  background-image: var(--bs-gradient);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.1) !important;
+  background: url("https://i.etsystatic.com/7862134/r/il/a0aa98/2006659519/il_1588xN.2006659519_3b46.jpg") repeat;
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  background-size: contain;
+  /* animation: fire1 4s linear infinite; */
+  
+}
+
+@keyframes fire1 {
+  0% {
+    background-position: left 5px top 5px;
+  }
+  50% {
+    background-position: left -5px top -5px;
+  }
+  100% {
+    background-position: left 0px top 0px;
+  }
+}
+
+.mHead {
+  font-family: sans-serif !important;
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 900 !important;
+}
+
+.yan {
+  align-content: center !important;
+  background-color: transparent !important;
+  border: none !important;
+  width: 500px;
+  height: 500px;
+  border-radius: 100% !important;
+}
+
+.tit2 {
+  background-image: var(--bs-gradient);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: center;
+  background: url("https://wallpaperaccess.com/full/265608.jpg") repeat;
+  -webkit-background-clip: content-box !important;
+  background-clip: content-box;
+  background-size: cover;
+  animation: fire2 3s linear infinite;
+}
+
+@keyframes fire2 {
+  0% {
+    background-position: right 50px top 0 bottom 0  ;
+  } 
+   100% {
+    background-position: left -50px bottom 0 ;
+  }
+}
+
+.yandal3 {
+  margin: auto !important;
+  border-radius: 10px !important;
+  background-color: #9b1c2c !important;
+  margin-bottom: 20px !important;
+}
+
+.yandal1 {
+  margin: auto !important;
+}
+
+.yandal {
+  margin: auto auto !important;
+  align-content: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  border-radius: 30px;
+  background-color: #9b1c2c;
+}
+
+.beat{
+  color: white !important;
+}
