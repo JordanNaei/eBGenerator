@@ -47,7 +47,7 @@ passport.serializeUser(db.User.serializeUser());
 passport.deserializeUser(db.User.deserializeUser());
 
 
-app.post("/posts", function (req, res) {
+app.post("/api/posts", function (req, res) {
   console.log(req.body.id, req.body.url);
   db.Article.create(req.body)
     .then(dbModel => res.json(dbModel))
@@ -64,7 +64,21 @@ app.get("/api/favorites", function (req, res) {
   });
 });
 
-app.delete("/delete/:id", (req, res) => {
+// app.get("/api/favorites", function (req, res) {
+//   db.Article.find({}).then(dbModel => res.json(dbModel[0]))
+//     .catch(err => res.status(422).json(err));
+// });
+
+// app.delete("/api/delete/:id", (req, res) => {
+//   db.Article.remove(
+//     {
+//       _id: mongojs.ObjectID(req.params.id)
+//     }).then(dbModel => res.json(dbModel[0]))
+//     .catch(err => res.status(422).json(err));
+// });
+
+
+app.delete("/api/delete/:id", (req, res) => {
   db.Article.remove(
     {
       _id: mongojs.ObjectID(req.params.id)

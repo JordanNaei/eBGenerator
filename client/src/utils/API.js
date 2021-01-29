@@ -7,7 +7,7 @@ export default {
   },
 
   saveArticle: function (postData) {
-    return axios.post("/posts", postData);
+    return axios.post("/api/posts", postData);
   },
 
   getFavorites: function () {
@@ -15,7 +15,7 @@ export default {
   },
 
     deletePost: function (id) {
-    return axios.delete("/delete/" + id);
+    return axios.delete("/api/delete/" + id);
   },
 
   getArticleSummary: function (u) {
