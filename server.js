@@ -21,11 +21,11 @@ mongoose.connect(
 var app = express();
 app.use(express.json());
 
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static("client/build"));
-// }
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
-app.use(express.static("client"));
+// app.use(express.static("client"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
