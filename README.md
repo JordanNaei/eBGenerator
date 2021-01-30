@@ -1,28 +1,36 @@
-# Create React Express App
+# Early Bird Generator
 
-## About This Boilerplate
+The Early Bird Generator Application does offer the users to:
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+        - Search for relevant articles
+        - Summarize selected articles with the click of a button
+        - Saves favorite article summaries to a list
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Business Context
 
-## Starting the app locally
+Public Affair Offices (PAO), media/communication departments, etc. regularly send reports to their audience listing industry relevant news articles for their audience to absorb and use as guiding knowledge.
+Problem:
+        - Clients have little time to review articles that can positively contribute to their daily business.
+        - It is easy to misconstrue the meaning of an article by its headline.
+        - Articles should be text only for easy accessibility and historic data storage.s
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Offered Solutioning
 
-```
-npm install
-```
+The Early Bird Generator allows users to:
 
-This should install node modules within the server and the client folder.
+        - Search for relevant articles
+        - Summarize selected articles with the click of a button
+        - Saves favorite article summaries to a list 
 
-After both installations complete, run the following command in your terminal:
 
-```
-npm start
-```
+## Landing Page
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Deployed Application URL
+
+## Landing Page With Search Results
+
+## Favorite Articles Page
+
 
 ## Deployment (Heroku)
 
