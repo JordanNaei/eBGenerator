@@ -24,13 +24,17 @@ The Early Bird Generator allows users to:
 
 
 ## Landing Page
-
-## Deployed Application URL
+![Application main screen](https://github.com/JordanNaei/eBGenerator/blob/master/image/app1.PNG?raw=true)
 
 ## Landing Page With Search Results
 
+![Application Search screen](https://github.com/JordanNaei/eBGenerator/blob/master/image/app2.PNG?raw=true)
+
 ## Favorite Articles Page
 
+![Application Favorities screen](https://github.com/JordanNaei/eBGenerator/blob/master/image/app3.PNG?raw=true)
+
+## Deployed Application URL
 
 ## Deployment (Heroku)
 
