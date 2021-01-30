@@ -3,7 +3,7 @@ import axios from "axios";
 export default {
 
   getArticles: function (s) {
-    return axios.get("http://newsapi.org/v2/everything?q=" + s + "&sortBy=publishedAt&apiKey=b21576c70cd24ab8a978d4b96c008837/");
+    return axios.get("https://newsapi.org/v2/everything?q=" + s + "&sortBy=publishedAt&apiKey=b21576c70cd24ab8a978d4b96c008837");
   },
 
   saveArticle: function (postData) {
@@ -33,24 +33,4 @@ export default {
     return axios.request(options)
   }
 
-  // getPhoto: function() {
-  //   return axios.get("https://api.pexels.com/v1/search?query=american+army", {
-  //       headers: {"Authorization": "563492ad6f91700001000001a472dd328cdb4dd089b49463f38ddf5a"},
-  //   });
-  // },
-
-  // // Gets all posts
-
-  // // Gets the post with the given id
-  // getPost: function (id) {
-  //   return axios.get("/api/posts/" + id);
-  // },
-  // // Deletes the post with the given id
-  // deletePost: function (id) {
-  //   return axios.delete("/api/posts/" + id);
-  // },
-  // // Saves a post to the database
-  // savePost: function (postData) {
-  //   return axios.post("/api/posts", postData);
-  // }
 };

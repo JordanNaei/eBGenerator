@@ -18,19 +18,14 @@ mongoose.connect(
   }
 );
 
+console.log("hello from your server");
+
 var app = express();
 app.use(express.json());
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-// app.use(express.static("client"));
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static(path.join(__dirname, '/client/build')))
-// }
-// app.get('*', function (req, res) {
-//   res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
-// })
 
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
@@ -68,20 +63,6 @@ app.get("/api/favorites", function (req, res) {
     }
   });
 });
-
-// app.get("/api/favorites", function (req, res) {
-//   db.Article.find({}).then(dbModel => res.json(dbModel[0]))
-//     .catch(err => res.status(422).json(err));
-// });
-
-// app.delete("/api/delete/:id", (req, res) => {
-//   db.Article.remove(
-//     {
-//       _id: mongojs.ObjectID(req.params.id)
-//     }).then(dbModel => res.json(dbModel[0]))
-//     .catch(err => res.status(422).json(err));
-// });
-
 
 app.delete("/api/delete/:id", (req, res) => {
   db.Article.remove(
