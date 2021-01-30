@@ -36,6 +36,5 @@ The Early Bird Generator allows users to:
 
 ## Deployed Application URL
 
-## Deployment (Heroku)
+![Application URL](https://secret-wave-97247.herokuapp.com/)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
