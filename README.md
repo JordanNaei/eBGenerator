@@ -36,5 +36,4 @@ The Early Bird Generator allows users to:
 
 ## Deployed Application URL
 
-![Application URL](https://secret-wave-97247.herokuapp.com/)
-
+- [Project Repo](https://secret-wave-97247.herokuapp.com/)
